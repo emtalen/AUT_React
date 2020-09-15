@@ -9,7 +9,7 @@ describe('Displays list of employees', () => {
 
   it('user can see a list of 5 employees', () => {
     cy.get('[data-cy="main-container"]').within(() => {
-      cy.get('[data-cy="list"]').should('have.length', 5)
+      cy.get('[data-cy="list"]').should('have.length', 10)
     })
   });
 })

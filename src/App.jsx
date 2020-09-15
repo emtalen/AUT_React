@@ -1,13 +1,12 @@
 import React from "react";
 import EmployeeList from "./EmployeeList";
+import NavHeader from "./Header";
 
 const App = () => {
   return (
     <>
-      <section data-cy='header'>
-        <h1>Employee List</h1>
-        <EmployeeList/>
-      </section>
+      <NavHeader />
+      <EmployeeList />
     </>
   );
 };
